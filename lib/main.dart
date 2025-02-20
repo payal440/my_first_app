@@ -4,7 +4,8 @@ import 'dashboard.dart';
 import 'pay_fees_page.dart';
 import 'loginscreen.dart';
 import 'sign_up.dart';
-import 'package:google_fonts/google_fonts.dart';
+import 'package:my_first_app/View_Attendance.dart';
+import 'package:my_first_app/help.dart';
 
 void main() {
   runApp(
@@ -15,9 +16,10 @@ void main() {
         '/signup': (context) => SignUpPage(),
         '/login': (context) => LoginPage(),
         '/dashboard': (context) => DashboardPage(),
-        '/': (context) => DashboardPage(),
         '/pay-fees': (context) => PayFeesPage(),
-        '/view_notification': (context) => ViewNotificationsPage(),
+        '/view-notifications':(context) => ViewNotificationsPage(), // Add route
+        '/view-attendance': (context) => ViewAttendancePage(),
+        '/help-support': (context) => HelpSupportPage(),
       },
     ),
   );

@@ -30,7 +30,8 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  google_fonts: ^6.1.0   # Use latest stable version
+  flutter_slidable: ^4.0.0
+  google_fonts: ^6.2.1   # Use latest stable version
 
 
     #cupertino_icons: ^1.0.2

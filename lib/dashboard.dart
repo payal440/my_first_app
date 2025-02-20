@@ -86,10 +86,8 @@ class _DashboardCardState extends State<DashboardCard> {
       onTapDown: (_) => setState(() => isTapped = true),
       onTapUp: (_) => setState(() => isTapped = false),
       onTap: () {
-        if (widget.item.route == '/pay-fees') {
-          // ✅ Pay Fees button click karein to '/pay-fees' page open ho
-          Navigator.pushNamed(context, widget.item.route);
-        }
+        // ✅ Navigate to the selected page
+        Navigator.pushNamed(context, widget.item.route);
       },
       child: AnimatedContainer(
         duration: Duration(milliseconds: 200),
