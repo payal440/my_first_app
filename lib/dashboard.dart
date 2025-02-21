@@ -34,26 +34,46 @@ class DashboardPage extends StatelessWidget {
 
 // 🔹 Dashboard Items Data
 final List<DashboardItem> dashboardItems = [
-  DashboardItem("Manage Attendance", Icons.camera_alt, [
-    Colors.blue,
-    Colors.lightBlueAccent,
-  ], '/attendance'),
-  DashboardItem("View Attendance", Icons.calendar_today, [
-    Colors.green,
-    Colors.lightGreenAccent,
-  ], '/view-attendance'),
-  DashboardItem("Pay Fees", Icons.payment, [
-    Colors.orange,
-    Colors.deepOrangeAccent,
-  ], '/pay-fees'),
-  DashboardItem("Notifications", Icons.notifications, [
-    Colors.red,
-    Colors.pinkAccent,
-  ], '/view-notifications'),
-  DashboardItem("Help & Support", Icons.support, [
-    Colors.purple,
-    Colors.deepPurpleAccent,
-  ], '/help-support'),
+  DashboardItem(
+      "Manage Attendance",
+      Icons.camera_alt,
+      [
+        Colors.blue,
+        Colors.lightBlueAccent,
+      ],
+      '/attendance'),
+  DashboardItem(
+      "View Attendance",
+      Icons.calendar_today,
+      [
+        Colors.green,
+        Colors.lightGreenAccent,
+      ],
+      '/view-attendance'),
+  DashboardItem(
+      "Pay Fees",
+      Icons.payment,
+      [
+        Colors.orange,
+        Colors.deepOrangeAccent,
+      ],
+      '/pay-fees'),
+  DashboardItem(
+      "Notifications",
+      Icons.notifications,
+      [
+        Colors.red,
+        Colors.pinkAccent,
+      ],
+      '/view-notifications'),
+  DashboardItem(
+      "Help & Support",
+      Icons.support,
+      [
+        Colors.purple,
+        Colors.deepPurpleAccent,
+      ],
+      '/help-support'),
   DashboardItem("Logout", Icons.logout, [Colors.black, Colors.grey], '/logout'),
 ];
 
